@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <h2>Articles récents
+    <a href="articles/index.xml" title="flux RSS">
+      <img src="/rss.svg" alt="flux RSS" style="height: 1em;"></a>
+  </h2>
+
+  {{ range first 10 (where site.RegularPages "Section" "articles") }}
+    <article>
+    {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+      <header>
+        <h3>{{ .LinkTitle }}</h3>
+        <p class="author">
+          par <a href="{{ $author.url }}">{{ $author.name }}</a> –
+          <time>{{ time.Format "2006-01-02" .Date }}</time>
+        </p>
+      </header>
+      {{ .Summary }}
+      <nav class="more"><a href="{{ .RelPermalink }}">Lire la suite…</a></nav>
+    </article>
+  {{ end }}
+{{ end }}

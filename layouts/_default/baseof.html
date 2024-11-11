@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  <title>
+    {{- block "headtitle" . -}}
+      {{- if .IsHome -}}
+        {{ site.Title }}
+      {{- else -}}
+        {{ printf "%s | %s" .Title site.Title }}
+      {{- end -}}
+    {{- end -}}
+  </title>
+
+  {{ block "layoutSpecificHead" .}}{{end}}
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  <main>
+    <h1>{{- block "title" . -}}{{ .Title }}{{- end -}}</h1>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+
+</html>

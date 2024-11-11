@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    {{- with resources.Get "/js/remark.js" }}
+      <script type="text/javascript" src="{{ relURL .RelPermalink }}"></script>
+    {{- end }}
+    {{- with resources.Get "/css/slides.css" }}
+      <link rel="stylesheet" href="{{ relURL .RelPermalink }}">
+    {{- end }}
+  </head>
+
+  <body>
+    <textarea id="source">{{ .RawContent }}</textarea>
+    <script type="text/javascript"> var slideshow = remark.create(); </script>
+  </body>
+</html>
