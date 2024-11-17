@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-75 -145 150 256">
+
+  <style>
+    :root {
+      --level0: #ff9090;
+      --level1: #ffddbd;
+      --level2: #c4ff7d;
+      --level3: #60eaa0;
+    }
+
+    text {
+      font-family: "Noto sans", sans-serif;
+      font-size: 9px;
+      text-anchor: middle;
+    }
+
+    #title {
+      font-size: 12px;
+    }
+  </style>
+
+  <defs>
+    <path id="rocket" d="M0-141
+       A820,820 0 0 1 72,103
+       A270,270 0 0 0 0,16.5
+       A270,270 0 0 0 -72,103
+       A820,820 0 0 1 0-141"/>
+    <clipPath id="stage5"><rect width="200" height="39" x="-100" y="-140"/></clipPath>
+    <clipPath id="stage4"><rect width="200" height="29" x="-100" y="-100"/></clipPath>
+    <clipPath id="stage3"><rect width="200" height="29" x="-100" y="-70"/></clipPath>
+    <clipPath id="stage2"><rect width="200" height="29" x="-100" y="-40"/></clipPath>
+    <clipPath id="stage1"><rect width="200" height="29" x="-100" y="-10"/></clipPath>
+    <clipPath id="right-leg">
+      <rect width="100" height="100" x="0" y="20"/>
+    </clipPath>
+    <clipPath id="left-leg">
+      <rect width="100" height="100" x="-100" y="20"/>
+    </clipPath>
+  </defs>
+
+  <use fill="var(--level0)" href="#rocket" clip-path="url(#stage5)"/>
+  <text y="-107"> rolls </text>
+
+  <use fill="var(--level0)" href="#rocket" clip-path="url(#stage4)"/>
+  <text y="-80"> LSB </text>
+
+  <use fill="var(--level0)" href="#rocket" clip-path="url(#stage3)"/>
+  <text y="-50"> SFU </text>
+
+  <use fill="var(--level0)" href="#rocket" clip-path="url(#stage2)"/>
+  <text y="-20"> heatmap </text>
+
+  <use fill="var(--level3)" href="#rocket" clip-path="url(#stage1)"/>
+  <text y="10"> raccourcis </text>
+
+  <use fill="var(--level2)" href="#rocket" clip-path="url(#right-leg)"/>
+  <g transform="translate(45 45) rotate(60)">
+    <text> 1DFH </text>
+  </g>
+
+  <use fill="var(--level2)" href="#rocket" clip-path="url(#left-leg)"/>
+  <g transform="translate(-45 45) rotate(-60)">
+    <text> pinky </text>
+  </g>
+
+  <text y="70" id="title"> Qwerty </text>
+</svg>

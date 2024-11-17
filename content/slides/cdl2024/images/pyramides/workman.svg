@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-45 0 190 175">
+    <style>
+        text {
+            font-family: "Noto sans", sans-serif;
+            font-size: 8px;
+            text-anchor: middle;
+        }
+    </style>
+
+    <path d="M 30 50 H 70 L 50 15 Z" fill="skyblue" />
+    <text x="50" y="40"> rolls </text>
+
+    <path d="M 15 75 H 85 l -15 -25 H 30 Z" fill="turquoise" />
+    <text x="50" y="65"> LSB/ciseaux </text>
+
+    <path d="M 0 100 H 100 l -15 -25 H 15 Z" fill="lightgreen" />
+    <text x="50" y="90"> réduire le SFU </text>
+
+    <path d="M -15 125 H 115 l -15 -25 H 0 Z" fill="navajowhite" />
+    <text x="50" y="115"> heatmap confortable </text>
+
+    <path d="M -30 150 H 130 l -15 -25 H -15 Z" fill="sandybrown" />
+    <text x="50" y="140"> raccourcis claviers </text>
+
+    <path d="M -45 175 H 145 l -15 -25 H -30 Z" fill="indianred" />
+    <text x="50" y="165"> alléger les auriculaires + compacité </text>
+
+</svg>

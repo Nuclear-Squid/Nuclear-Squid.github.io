@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 50">
+
+  <style>
+    text {
+        font-family: "Noto sans", sans-serif;
+        text-anchor: right;
+        font-size: 4px;
+    }
+  </style>
+
+  <rect height="10" width="50" fill="#60eaa0"/>
+  <rect height="10" width="50" y="10" fill="#c4ff7d"/>
+  <rect height="10" width="50" y="20" fill="#ffddbd"/>
+  <rect height="10" width="50" y="30" fill="#ff9090"/>
+
+  <text x="2.5" y="7">  Incroyable ! </text>
+  <text x="2.5" y="17"> Bien </text>
+  <text x="2.5" y="27"> Pas ouf </text>
+  <text x="2.5" y="37"> Très mauvais </text>
+
+</svg>

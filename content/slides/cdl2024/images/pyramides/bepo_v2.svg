@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 0 130 125">
+    <style>
+        text {
+            font-family: "Noto sans", sans-serif;
+            font-size: 8px;
+            text-anchor: middle;
+        }
+    </style>
+
+    <path d="M  30  50 H  70 L  50  15 Z" fill="skyblue" />
+    <text x="50" y="40" style="font-size: 6px"> distance </text>
+
+    <path d="M  15  75 H  85 l -15 -25 H 30 Z" fill="lightgreen" />
+    <text x="50" y="65"> alternances </text>
+
+    <path d="M   0 100 H 100 l -15 -25 H 15 Z" fill="sandybrown" />
+    <text x="50" y="85"> travail des mains </text>
+    <text x="50" y="95"> équilibré </text>
+
+    <path d="M -15 125 H 115 l -15 -25 H  0 Z" fill="indianred" />
+    <text x="50" y="115"> raccourcis claviers </text>
+
+</svg>

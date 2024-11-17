@@ -1,0 +1,23 @@
+:root {
+  --level0: indianred;
+  --level1: sandybrown;
+  --level2: lightgreen;
+  --level3: turquoise;
+}
+
+:root {
+  --level0: #fc9d9d;
+  --level1: #ffdbbd;
+  --level2: #c4ff7d;
+  --level3: #75e840;
+}
+
+text {
+  font-family: "Noto sans", sans-serif;
+  font-size: 9px;
+  text-anchor: middle;
+}
+
+#title {
+  font-size: 12px;
+}
