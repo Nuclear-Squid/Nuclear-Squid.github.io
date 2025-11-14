@@ -1,0 +1,93 @@
+Avant :
+
+- Quacken: un clavier ergonomique, libre et polymorphe.
+    - Expérience personelle
+    - « Je voudrais bien un clavier ergonique »
+    - « Ah… »
+    - Constat
+- Un marché de niche
+    - Microsoft, Logitech
+    - Kinesis, ZSA, Moergo
+    - Claviers libres
+    - Objectifs du Quacken
+- Une ergonomie qui évolue
+    - (1990–2000) Kinesis, Typematrix, Ergodox
+    - (2015) **1DFH :** Planck, Corne, Atreus
+    - Stagger + Choc : Ferris
+    - Splay : Totem, Dasbob
+    - Ultra-compact : Hummingbird
+- Le Quacken
+    - Géométrie radiale
+    - Polymorphie : touche médianes
+    - 42 touches seulement ?
+- Configuration
+    - Arsenik
+    - Sane defaults
+    - Dispositions francophones
+- Conception
+    - Ergogen
+    - KiCad
+    - FreeCad
+- Les Ergonautes
+    - Zéro et Flex
+    - Batch proto du Zéro
+    - Batch proto du Flex
+- Fabrication
+    - X-mas batch
+    - Rolling releases
+    - Prix libre
+- Roadmap
+    - Construction « Bling »
+    - Boitiers
+    - Bluetooth
+    - Contribuer
+    - Merci
+
+
+
+Après :
+
+
+- Quacken: un clavier ergonomique, libre et polymorphe.
+    - Expérience personelle
+    - « Je voudrais acheter un clavier ergonique »
+    - préambule
+- Un marché de niche
+    - Microsoft, Logitech
+    - Kinesis, ZSA, Moergo
+    - Claviers libres
+    - Objectifs du Quacken
+- Une ergonomie qui évolue
+    - (1990–2000) Kinesis, Typematrix, Ergodox
+    - (2015) **1DFH :** Planck, Corne, Atreus
+    - Stagger + Choc : Ferris
+    - Splay : Totem, Dasbob
+    - Ultra-compact : Hummingbird
+- Le Quacken
+    - Ergogen : Géométrie radiale
+    - KiCad : Électronique
+    - FreeCad : Mécanique
+- Polymorphie
+    - PCB splitable
+    - Rotary encoders
+    - Positions médianes
+- Configuration
+    - 42 touches seulement ?
+    - Le « syndrôme Glove 38 »
+    - Arsenik
+    - Sane defaults
+    - Dispositions francophones
+- Les Ergonautes
+    - Zéro et Flex
+    - Batch proto du Zéro
+    - Batch proto du Flex
+- Fabrication
+    - X-mas batch
+    - Rolling releases
+    - Prix libre
+- Roadmap
+    - Construction « Bling »
+    - Boitiers
+    - Bluetooth
+    - Contribuer
+- Merci

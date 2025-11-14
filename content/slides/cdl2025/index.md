@@ -29,8 +29,10 @@ Pleins de raisons possible :
 
 - ça prévient les TMS
 - c’est confortable
-- c’est cool
-- etc…
+- le nerd factor
+- etc
+
+Il y a juste un soucis…
 
 ---
 ## « Ah… »
@@ -70,6 +72,9 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 <!-- <img src="images/pyramide_maslow.svg" width="60%"> -->
 
 ---
+layout: false
+class: middle, inverse
+
 # Un marché de niche
 
 ---
@@ -103,6 +108,9 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 - facile à fabriquer
 
 ---
+layout: false
+class: middle, inverse
+
 # Une ergonomie qui évolue
 
 ---
@@ -142,7 +150,7 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 ---
 # Le Quacken
 
-[ Photo du poti quacken chéri ]
+![](images/quacken_42_touches.jpg)
 
 ---
 ## Géométrie radiale
@@ -167,6 +175,9 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 - beaucoup d’ergonautes ont débuté directement sur un 3×6, voire 3×5
 
 ---
+layout: false
+class: middle, inverse
+
 # Configuration
 
 ---
@@ -182,7 +193,7 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 
 - configuration validée auprès d’un public large (néophytes et expert·e·s)
 - couche de symbole issue d’Ergol et Lafayette
-- soin particulier au *timings*
+- soin particulier au *timings*, grâce à ZMK
 
 ---
 ## Dispositions francophones
@@ -193,6 +204,9 @@ Pourquoi pas faire notre propre clavier ergo, libre et économique ?
 Le Quacken apport l’essentiel des gains d’Ergo‑L aux dispositions classiques (Azerty, Qwerty, Bépo)
 
 ---
+layout: false
+class: middle, inverse
+
 # Conception
 
 ---
@@ -216,12 +230,25 @@ Le Quacken apport l’essentiel des gains d’Ergo‑L aux dispositions classiqu
 - intégration de futurs dispositifs de pointage
 
 ---
+layout: false
+class: middle, inverse
+
 # Les Ergonautes
 
 ---
 ## Zéro et Flex
 
 Une géométrie (Quacken 1.0), deux modèles (Zéro et Flex)
+
+|                                | Flex | Zéro |
+| --                             |:----:|:----:|
+| Rotary Encoders                | V    | V    |
+| Colonnes exterieurs splitables | V    | V    |
+| Dispositifs de pointage        | V*   | V*   |
+| Splitable                      | V    | X    |
+| Bluetooth                      | X    | V    |
+
+<small> Dispositifs de pointage prévu pour plus tard </small>
 
 ---
 ## Batch proto du Zéro
@@ -244,6 +271,9 @@ Une géométrie (Quacken 1.0), deux modèles (Zéro et Flex)
 - firmware ZMK fait, Keyberon à venir
 
 ---
+layout: false
+class: middle, inverse
+
 # Fabrication
 
 ---
@@ -269,6 +299,9 @@ Une géométrie (Quacken 1.0), deux modèles (Zéro et Flex)
 - on accepte les dons
 
 ---
+layout: false
+class: middle, inverse
+
 # Roadmap
 
 ---
