@@ -20,19 +20,7 @@ class: middle, inverse
 ---
 ## préambule
 
-<!-- <img src="images/pyramide_maslow.svg" width="50%"> -->
-
-<div style="display: flex; justify-content: space-around; margin-top: 3em;">
-    <img src="images/pyramide_maslow.svg" width="60%">
-    <div>
-        <p> sans dactylographie (touch‑typing): </p>
-        <ul>
-            <li> mauvaise position </li>
-            <li> aucun gain par les autres étages </li>
-        </ul>
-    </div>
-</div>
-
+<img src="images/pyramide_maslow.svg" width="70%">
 
 ---
 ## « Je voudrais un clavier ergonomique »
@@ -364,17 +352,16 @@ Les positions médianes servent aussi au configurations 3×6
 ---
 ## Soyez créatifs
 
-**Configuration « Martinet »**
+les positions médianes permettent des configurations très spécifiques, très bizarres, mais **TRÈS** efficaces
 
-<div style="display: flex; justify-content: space-around;">
-    <img src="images/keymap_martinet.svg" width="85%">
+<div style="display: flex; justify-content: space-around">
+    <img src="images/hirondelle.png" width="85%">
 </div>
 
-**Configuration « Martinet »**
-
-<div style="display: flex; justify-content: space-around;">
-    <img src="images/keymap_tychodrome.svg" width="85%">
+<div style="display: flex; justify-content: space-around; margin-top: -3em">
+    <p> Config « Hirondelle » </p>
 </div>
+
 
 ---
 layout: false
@@ -386,6 +373,12 @@ class: middle, inverse
 ## Zéro et Flex
 
 Une géométrie (Quacken 1.0), deux modèles (Zéro et Flex)
+
+<style>
+#uuu + table { width: 70% }
+</style>
+
+<div id="uuu"></div>
 
 |                               | Flex | Zéro |
 |-------------------------------|:----:|:----:|
@@ -454,8 +447,10 @@ class: middle, inverse
 - on accepte les dons
 
 <style>
-table { width: 100% }
+#iii + table { width: 100% }
 </style>
+
+<div id="iii"></div>
 
 | item                 | coût pour l’asso    |    prix suggéré | prix Ali | prix EU
 |-----------------     | -------------------:|    ------------:| --------:| -------:

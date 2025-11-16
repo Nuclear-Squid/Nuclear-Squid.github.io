@@ -1,0 +1,124 @@
+# baseURL = "https://ergol.org"
+relativeURLs = false  # our 404 page does not support relative URLs
+languageCode = "fr"
+title = "Ergo‑L"
+
+[params]
+subtitle = "Ergonomie optimisée pour le français, l’anglais, le code."
+description = "Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code."
+
+[security.exec]
+allow = ["pandoc"]
+
+[markup]
+defaultMarkdownHandler = "pandoc"
+
+[taxonomies]
+tag = "tags"
+author = "authors"
+# category = "categories"
+
+[module]
+    [[module.mounts]]
+        source = "../code"
+        target = "assets/js"
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "../corpus"
+        target = "static/corpus"
+    [[module.mounts]]
+        source = "../keymaps"
+        target = "static/keymaps"
+    [[module.mounts]]
+        source = "static"
+        target = "static"
+
+[menus]
+    [[menus.main]]
+        name    = "Ergo‑L"
+        pageRef = "/"
+        weight  = 1
+    [[menus.main]]
+        name    = "Présentation"
+        pageRef = "/presentation"
+        parent  = "Ergo‑L"
+        weight  = 1
+    [[menus.main]]
+        name    = "Installation"
+        pageRef = "/installation"
+        parent  = "Ergo‑L"
+    [[menus.main]]
+        name    = "Alternatives"
+        pageRef = "/alternatives"
+        weight  = 2
+    [[menus.main]]
+        name    = "Bépo ?"
+        pageRef = "/alternatives/bepo"
+        parent  = "Alternatives"
+        weight  = 1
+    [[menus.main]]
+        name    = "Erglace !"
+        pageRef = "/alternatives/erglace"
+        parent  = "Alternatives"
+        weight  = 2
+    [[menus.main]]
+        name    = "Lafayette *"
+        pageRef = "/alternatives/lafayette"
+        parent  = "Alternatives"
+        weight  = 3
+    [[menus.main]]
+        name    = "Hypergol ?!"
+        pageRef = "/alternatives/hypergol"
+        parent  = "Alternatives"
+        weight  = 4
+    [[menus.main]]
+        name    = "Claviers"
+        pageRef = "/claviers"
+        weight  = 3
+    [[menus.main]]
+        name    = "Full-size"
+        pageRef = "/claviers/full-size"
+        parent  = "Claviers"
+        weight  = 1
+    [[menus.main]]
+        name    = "Compacts"
+        pageRef = "/claviers/compacts"
+        parent  = "Claviers"
+        weight  = 2
+    [[menus.main]]
+        name    = "Arsenik"
+        pageRef = "/claviers/arsenik"
+        parent  = "Claviers"
+    [[menus.main]]
+        name    = "Analyseur"
+        pageRef = "/stats"
+        weight  = 4
+    [[menus.main]]
+        name    = "FAQ / Ressources"
+        pageRef = "/ressources"
+        weight  = 5
+    [[menus.main]]
+        name    = "FAQ"
+        pageRef = "/ressources/faq"
+        parent  = "FAQ / Ressources"
+    [[menus.main]]
+        name    = "Glossaire"
+        pageRef = "/ressources/glossaire"
+        parent  = "FAQ / Ressources"
+    [[menus.main]]
+        name    = "Apprendre"
+        pageRef = "/dactylo"
+        weight  = 6
+    # [[menus.main]]
+    #     name    = "Articles"
+    #     pageRef = "/articles"
+    #     weight  = 6
+
+# Disable RSS everywhere, and enable it manually in /content/articles/_index.md
+[outputs]
+    home     = ["html"]
+    section  = ["html"]
+    taxonomy = ["html"]
+    term     = ["html"]

@@ -3,7 +3,7 @@
     <style>
         text {
             font-family: "Noto sans", sans-serif;
-            font-size: 8px;
+            font-size: 6px;
             text-anchor: middle;
         }
     </style>
@@ -12,12 +12,15 @@
     <text x="50" y="40" style="font-size: 6px"> clavier </text>
 
     <path d="M  15  75 H  85 l -15 -25 H 30 Z" fill="lightgreen" />
-    <text x="50" y="65"> disposition </text>
+    <text x="50" y="61"> disposition </text>
+    <text x="50" y="69"> ergonomique </text>
 
     <path d="M   0 100 H 100 l -15 -25 H 15 Z" fill="sandybrown" />
-    <text x="50" y="90"> configuration </text>
+    <text x="50" y="87"> configuration </text>
+    <text x="50" y="95"> (élimination des extensions) </text>
 
     <path d="M -15 125 H 115 l -15 -25 H  0 Z" fill="indianred" />
-    <text x="50" y="115"> dactylographie </text>
+    <text x="50" y="111"> dactylographie </text>
+    <text x="50" y="119"> (position / saisie de texte) </text>
 
 </svg>
