@@ -45,13 +45,13 @@ Avant :
 
 
 
-Après :
 
+Après :
 
 - Quacken: un clavier ergonomique, libre et polymorphe.
     - Expérience personelle
-    - « Je voudrais acheter un clavier ergonique »
     - préambule
+    - « Je voudrais acheter un clavier ergonique »
 - Un marché de niche
     - Microsoft, Logitech
     - Kinesis, ZSA, Moergo
@@ -76,6 +76,108 @@ Après :
     - Le « syndrôme Glove 38 »
     - Arsenik
     - Sane defaults
+    - Dispositions francophones
+- Les Ergonautes
+    - Zéro et Flex
+    - Batch proto du Zéro
+    - Batch proto du Flex
+- Fabrication
+    - X-mas batch
+    - Rolling releases
+    - Prix libre
+- Roadmap
+    - Construction « Bling »
+    - Boitiers
+    - Bluetooth
+    - Contribuer
+- Merci
+
+
+
+
+
+Encore après :
+
+- Quacken: un clavier ergonomique, libre et polymorphe.
+    - Expérience personelle
+    - préambule
+    - « Je voudrais un clavier ergonomique »
+- Un marché de niche
+    - Microsoft, Logitech
+    - Kinesis, ZSA, Moergo…
+    - Claviers libres
+    - Objectifs du Quacken
+- Une ergonomie qui évolue
+    - (1990–2000) Kinesis, Typematrix, Ergodox
+    - (2015) **1DFH :** Planck, Corne, Atreus
+    - Stagger + Choc : Ferris
+    - Splay : Totem, Dasbob
+- Le Quacken
+    - Ergogen : Géométrie radiale
+    - KiCad : Électronique
+    - FreeCad : Mécanique
+- Polymorphie
+    - Rotary encoders
+    - 6ième colonne cassable
+    - PCB splitable
+    - Ultra-compact : Hummingbird
+    - Positions médianes
+- Configuration
+    - 42 touches seulement ?
+    - Le « syndrome Glove 38 »
+    - Arsenik
+    - Arsenik : sane defaults
+    - Dispositions francophones
+- Les Ergonautes
+    - Zéro et Flex
+    - Batch proto du Zéro
+    - Batch proto du Flex
+- Fabrication
+    - X-mas batch
+    - Rolling releases
+    - Prix libre
+- Roadmap
+    - Construction « Bling »
+    - Boitiers
+    - Bluetooth
+    - Contribuer
+- Merci
+
+
+
+
+Encore encore après :
+
+- Quacken: un clavier ergonomique, libre et polymorphe.
+    - Expérience personelle
+    - préambule
+    - « Je voudrais un clavier ergonomique »
+- Un marché de niche
+    - Microsoft, Logitech
+    - Kinesis, ZSA, Moergo…
+    - Claviers libres
+    - Objectifs du Quacken
+- Une ergonomie qui évolue
+    - (1990–2000) Kinesis, Typematrix, Ergodox
+    - (2015) **1DFH :** Planck, Corne, Atreus
+    - Stagger + Choc : Ferris
+    - Splay : Totem, Dasbob
+- Le Quacken
+    - Ergogen : Géométrie radiale
+    - KiCad : Électronique
+    - FreeCad : Mécanique
+- Polymorphie
+    - Rotary encoders
+    - 6ième colonne cassable
+    - PCB splitable
+    - Ultra-compact : Hummingbird
+    - Positions médianes
+- Configuration
+    - **QMK**rash-course
+    - 42 touches seulement ?
+    - Le « syndrome Glove 38 »
+    - Arsenik
+    - Arsenik : sane defaults
     - Dispositions francophones
 - Les Ergonautes
     - Zéro et Flex
